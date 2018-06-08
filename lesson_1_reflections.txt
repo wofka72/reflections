@@ -1,0 +1,53 @@
+1) How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+Answer: Using tool 'diff' helps me to find bug in code. I look at the changes between old version
+and new version of file with the command 'diff old_file.txt new_file.txt'.
+And it shows me immediately these changes. I shouldn't look for them manually searching the file.
+It really helps when I have files with a lot of lines of code.
+
+
+2) How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Answer: Having easy access to the entire history of a file make the programmer more efficient
+because this programmer can track the way this file gone and he can look on the
+way of the thoughts of other programmers.
+He can track the bugs and typos that he or the other programmer made while changing the code.
+He can return to previous version when there weren't some bugs.
+He can test programs with old versions of some modules.
+He can prove why the team shouldn't use some constructions by showing their disadvantages
+in old versions of the file.
+There is a lot of other pluses in easy access to file. But there is also minus such as
+this system needs in more disk space and additional preparing to work. But +s >> -s.
+
+
+Manual copies, Dropbox (30 days), Google Docs (entire history), Wikipedia (entire history)
+are some of the examples of Version Control systems.
+
+Git, Mercurial (hg), Apache Subversion (SVN) and CVS, Team Foundation Server (visualstudio)
+are designed special for programmers.
+
+
+3) What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros:
+ - you can divide all your work on your project by logical steps (commits)
+ - you can share your work with other people much more easily
+
+cons:
+ - you can lose all your work that you've made since last commit
+ - you must make more steps for every saving in Git than in Google Docs
+ - you must learn additional material before you start the project
+
+
+4) Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git - designed for code (making one action in the program often tends to
+                         a lot of changes in the source code files)
+
+Google Docs - designed for changing files separately (novel by one file, document, etc.
+  requires changes much more often and requires multi-file changes much more rare)
+
