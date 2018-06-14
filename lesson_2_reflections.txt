@@ -6,20 +6,38 @@ No commits appears.
 2) How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-staging area is the area with files that are to be commited
+Staging area is the area with files that are to be commited
 working directory are the files and directories at the current moment
 repository is the bunch of all commits
+
+if gives the opportunity to commit only chosen files
 
 3) How can you use the staging area to make sure you have one commit per logical
 change?
 
+you can add only the files that are related to one logical change to staging area
+via 'git add file.ext' and check the changes from last commit via 'git diff --staged'
+
 4) What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+when you add new feature and want to test it safely
+
 5) How do the diagrams help you visualize the branch structure?
+
+you write your commits to the one place and this could help you easily see on
+the repository structure
 
 6) What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+one branch with commits from first (checked out) branch and next from second merging branch
+
+
 7) What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
++ speed
+- accuracy
+- sometimes we can meet the conflicts that should be resolved
+
